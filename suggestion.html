@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="stylesheet/style.css">
+    <title>サジェスチョン</title>
+</head>
+<body>
+<!-- 転送する場合
+   <form action="サーバー" method="POST">
+--> 
+<h3>案件サーチ</h3>
+    <div class="Work_location">
+        <p>勤務地</p>
+            <select required>
+                <option value="Hokkaido_Tohoku">北海道・東北</option>
+                <option value="kanto">関東</option>
+                <option value="Hokuriku_Koshinetsu">北陸・甲信越</option>
+                <option value="tokai">東海</option>
+                <option value="kinki">近畿</option>
+                <option value="China_Shikoku">中国・四国</option>
+                <option value="Kyushu_Okinawa">九州・沖縄</option>
+                <option value="overseas">海外</option>
+            </select>
+    <div class="Field">
+        <p>分野</p>
+            <select required>
+                <option value="information">情報</option>
+                <option value="machine">機械</option>
+                <option value="Electricity and electronics">電気・電子</option>
+            </select>
+   </div>
+
+    <div class="Job">
+        <p>ジョブ</p>
+           <select required>
+                <option value="Hokkaido_Tohoku">システム開発</option>
+                <option value="Hokkaido_Tohoku">ネットワーク/サーバ設計・構築</option>
+                <option value="Hokkaido_Tohoku">パッケージソフト・ミドルウェア開発</option>
+                <option value="Hokkaido_Tohoku">プロジェクトマネージャー・リーダー</option>
+                <option value="Hokkaido_Tohoku">データサイエンティスト</option>
+            </select>
+    </div>
+    
+    <a href="https://qiita.com/" class="btn">検索</a><br />
+    <a href="https://www.google.com/">希望条件を登録</a>
+
+</body>
+</html>

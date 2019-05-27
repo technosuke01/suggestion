@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<!-- Tutorial_01_Hello_World (XML) -->
+
+<Module specificationVersion='2'>
+   	<ModulePrefs title="suggestion" height="250">
+	</ModulePrefs>
+	<Content type="html" href="suggestion.html"/>
+</Module>
