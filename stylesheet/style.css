@@ -1,7 +1,9 @@
+/*
 body{
-    background-color:#fff
+    background-color:#fff;
+    color: #000000;  
 }
-
+*/
 /*
 h3{
     color:#fff;
@@ -10,26 +12,18 @@ h3{
 }
 */
 
-
-p{
-    margin: 0.8em;
+select{
+    width: 100%;
 }
 
-.Work_location, .Field, .Job{
+.btn{
     text-align: center;
-}
-
-a.btn{
-    display: inline-block;
     padding: 0.5em 2em 0.5em 2em;
     margin:0.5em 0.2em 0.5em 0.2em;
-    text-decoration: none;
-    background-color: #D8D8D8; /* ボタン色 */
-    color:#000;
-    border: solid 0.5px #6E6E6E;
-    border-radius:10px;
 }
 
-a.btn:hover{
-    background-color: aqua;
+.link{
+    text-align: center;
+    font-size:0.8em;
 }
+

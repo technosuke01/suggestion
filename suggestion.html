@@ -9,9 +9,54 @@
 <!-- 転送する場合
    <form action="サーバー" method="POST">
 --> 
+ 
+<table align="center" >
+    <tr>
+        <th>勤務地</th>
+            <td>
+                <select required>
+                    <option value="">選択してください</option>
+                    <option value="1">北海道・東北</option>
+                    <option value="2">関東</option>
+                    <option value="3">北陸・甲信越</option>
+                    <option value="4">東海</option>
+                    <option value="5">近畿</option>
+                    <option value="6">中国・四国</option>
+                   <option value="7">九州・沖縄</option>
+                    <option value="8">海外</option>
+                </select>  
+            </td>
+        </tr>
+
+    <tr>
+        <th>分野</th>
+            <td>
+                <select required>
+                    <option value="">選択してください</option>
+                    <option value="1">情報</option>
+                    <option value="2">機械</option>
+                    <option value="3 and electronics">電気・電子</option>
+                </select>
+            </td>
+    </tr>
+
+    <tr>
+        <th>ジョブ</th>
+            <td>
+                <select required>
+                   <option value="">選択してください</option>
+                    <option value="1">システム開発</option>
+                    <option value="2">ネットワーク/サーバ設計・構築</option>
+                    <option value="3">パッケージソフト・ミドルウェア開発</option>
+                    <option value="4">プロジェクトマネージャー・リーダー</option>                            <option value="Hokkaido_Tohoku">データサイエンティスト</option>
+                </select>
+            </td>    
+    </tr>
+    
+</table>
 
 
-<!--<h3>案件サーチ</h3>-->
+<!--
     <div class="Work_location">
         <p>勤務地</p>
             <select required>
@@ -43,9 +88,17 @@
                 <option value="Hokkaido_Tohoku">データサイエンティスト</option>
             </select>
     </div>
+-->
+
+    <div class="btn">
+        <a href="https://qiita.com/">
+            <button type="button">検索</button>
+        </a>
+    </div>
     
-    <a href="https://qiita.com/" class="btn">検索</a><br />
-    <a href="https://www.google.com/">希望条件を登録</a>
+    <div class="link">
+        <a href="https://www.google.com/">希望条件を登録</a>
+    </div>
 
 </body>
 </html>
