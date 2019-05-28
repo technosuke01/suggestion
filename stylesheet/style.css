@@ -1,6 +1,9 @@
 body{
+    width:100%;
     font-family: sans-serif;
     background-color: aliceblue;
+    border: dashed 2px #5b8bd0;/*点線*/
+    box-sizing: border-box;
 }
 
 select{
