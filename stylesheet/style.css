@@ -2,10 +2,11 @@ body{
     width:100%;
     font-family: sans-serif;
     background-color: aliceblue;
-    border: dashed 2px #5b8bd0;/*点線*/
+    padding-top: 1em;
+    /* 枠線
+    border: dashed 2px #5b8bd0;
     box-sizing: border-box;
-    margin: 1em;
-    padding: 1em;
+    */
 }
 
 select{
