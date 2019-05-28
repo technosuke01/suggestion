@@ -2,7 +2,7 @@
 <!-- Tutorial_01_Hello_World (XML) -->
 
 <Module specificationVersion='2'>
-   	<ModulePrefs title="suggestion" height="400">
+   	<ModulePrefs title="suggestion" height="450">
 	</ModulePrefs>
 	<Content type="html" href="suggestion.html"/>
 </Module>
