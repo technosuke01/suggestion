@@ -4,6 +4,8 @@ body{
     background-color: aliceblue;
     border: dashed 2px #5b8bd0;/*点線*/
     box-sizing: border-box;
+    margin: 1em;
+    padding: 1em;
 }
 
 select{
